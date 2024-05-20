@@ -59,3 +59,20 @@ hr {
   list-style-position: inside;
   display: list-item;
 }
+
+.achievement {
+  max-width: 800px;
+  max-height: 500px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.top-card {
+  display: inline-flex;
+  margin-left: 20rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
