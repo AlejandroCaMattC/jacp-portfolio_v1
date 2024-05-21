@@ -52,6 +52,12 @@ hr {
   background-color: var(--color-header);
   color: white;
   text-align: justify;
+  padding: 2rem;
+  min-height: 200px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-style {
@@ -60,13 +66,23 @@ hr {
   display: list-item;
 }
 
-.achievement {
-  width: 700px;
-  height: 200px;
-  padding: 2rem;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
 }
 
-.carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-  filter: invert(100%);
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: var(--color-header);
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: var(--color-header);
 }
