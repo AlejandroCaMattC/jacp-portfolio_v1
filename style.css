@@ -31,7 +31,8 @@ body {
 .hero h1,
 .resume__text h1,
 .work_header h1,
-h3 {
+h3,
+.contact__me--header {
   font-weight: 600;
   font-style: oblique;
   color: var(--color-header) !important;
@@ -120,4 +121,32 @@ hr {
     text-align: center;
     padding: 1rem 3rem;
   }
+}
+
+/* Contact me section */
+
+.contact__me--header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact__form {
+  margin: 2rem;
+}
+
+.button__form {
+  float: right;
+}
+
+.contact__me--textarea {
+  padding-top: 2rem;
+  width: 500px;
 }
