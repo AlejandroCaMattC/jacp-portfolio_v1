@@ -273,7 +273,7 @@
     <hr />
     <h2 class="contact__me--header">Let's Talk!</h2>
     <div class="container-fluid contact__me">
-      <div class="contact__me--info col-lg-4 col-md-6 col-sm-12">
+      <div class="contact__me--info col">
         <form class="form-floating contact__form">
           <input
             type="text"
@@ -317,16 +317,22 @@
           Submit
         </button>
       </div>
-      <div class="form-floating contact__me--textarea">
+      <div class="form-floating contact__me--textarea col-2">
         <textarea
           class="form-control"
           placeholder="Leave a comment here"
           id="floatingTextarea"
         ></textarea>
-        <label for="floatingTextarea contact__me--textarea">Comments</label>
+        <label for="contact__me--textarea">Comments</label>
       </div>
     </div>
-    <footer></footer>
+    <hr />
+    <footer class="container-fluid my__footer">
+      <a class="footer-link" href="#">LinkedIn</a>
+      <a class="footer-link" href="#">Instagram</a>
+      <a class="footer-link" href="#">Website</a>
+      <p class="copyright">© Alejandro Campos @ Consultant/Programmer.</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

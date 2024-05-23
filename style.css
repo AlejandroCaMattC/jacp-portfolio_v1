@@ -90,6 +90,7 @@ hr {
   color: var(--color-header);
 }
 
+/* About Me Section */
 .about__me {
   display: flex;
   flex-direction: row;
@@ -99,7 +100,7 @@ hr {
 .about__hobbies,
 .about__skills {
   text-align: center;
-  padding: 1rem 15rem;
+  flex-basis: 50%;
 }
 
 .about__hobbies ul,
@@ -136,17 +137,41 @@ hr {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  height: 500px;
 }
 
 .contact__form {
   margin: 2rem;
+  flex-basis: 50%;
 }
 
 .button__form {
   float: right;
+  flex-basis: 50%;
 }
 
 .contact__me--textarea {
-  padding-top: 2rem;
-  width: 500px;
+  display: inline-table;
+  height: 800px;
+  margin-top: 2rem;
+  flex-basis: 50%;
+}
+
+/* Footer */
+
+.my__footer {
+  background-color: var(--color-header);
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  margin: 10px 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
